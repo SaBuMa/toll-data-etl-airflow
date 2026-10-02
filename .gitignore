@@ -1,0 +1,24 @@
+# Source data (provided by IBM Skills Network, downloaded separately)
+*.tgz
+staging/
+*.csv
+*.tsv
+*.txt
+!requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+unittests.cfg
+webserver_config.py
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
